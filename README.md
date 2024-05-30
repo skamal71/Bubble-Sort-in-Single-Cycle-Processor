@@ -11,6 +11,7 @@ This implementation supports the following instructions:
 - Jump: j, jal, jr
 - Additional: sll, addi
 - Custom: swap
+
 lw & sw work similar like MIPS, where lw loads an instruction into a register and sw saves an instruction into a register
 beq enables branching to another instruction if condition matches.
 jal allows processor to jump to new instruction and save previous “next PC” (PC+4) position in register[31] or $ra
