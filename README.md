@@ -21,4 +21,5 @@ jr allows processor to jump to instruction stored in register[31] representing $
 "swap" is the customized MIPS procedure that was possible by creating a 32 bits instruction with [31:26] = 6’b111111
 
 ## Verilog Simulation
+Here in the attached simulation, we can see that the numbers [1-10] have been sorted in Single Cycle Processor
 ![Alt text](img.png)
